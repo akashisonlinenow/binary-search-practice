@@ -12,7 +12,7 @@ int bs(int low, int high, vector<int> &nums, int target)
         bs(low, mid - 1, nums, target);
 }
 
-int search(vector<int> &nums, int target)
+int search(vector<int> &nums, int target) // TC = O(log n)
 {
     // Write Your Code Here
     int n = nums.size();
